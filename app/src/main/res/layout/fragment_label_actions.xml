@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_label_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label Name"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/mbtn_add"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_label_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mbtn_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintTop_toBottomOf="@id/til_label_name"
+        app:layout_constraintLeft_toLeftOf="@id/til_label_name"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mbtn_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:layout_constraintTop_toTopOf="@id/mbtn_add"
+        app:layout_constraintBottom_toBottomOf="@id/mbtn_add"
+        app:layout_constraintRight_toRightOf="@id/til_label_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
