@@ -15,7 +15,7 @@ Will support two actions :
 **Sample for reference:**
 
 **Wireframe:**
-![alt text](https://github.com/mahesh-du/PhysicsWallah-Task2/Assets/l1.png)
+![alt text](https://github.com/mahesh-du/PhysicsWallah-Task2/blob/master/Assets/l1.PNG)
 
 **Layout:**
-![alt text](https://github.com/mahesh-du/PhysicsWallah-Task2/Assets/l2.png)
+![alt text](https://github.com/mahesh-du/PhysicsWallah-Task2/blob/master/Assets/l2.PNG)
